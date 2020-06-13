@@ -1,0 +1,215 @@
+#Severity is the level of severity
+#examples is the response given by victim
+#description is severity level that is communicated to SCDF officers (given by code-orange and code-yellow)
+{
+  "Severity": [ 
+  {
+      "severity": "noactionrequired",
+      "examples": [
+        {
+# QNS1: “If you are conscious, please move any part of your body or say yes"
+          "text": "yes"
+        },
+        {
+          "text": "I can talk"
+        },
+        {
+          "text": "I am conscious"
+        },
+        {
+          "text": "I can move"
+        },
+        
+#QNS2: “Have you fallen?”
+        {
+          "text": "No"
+        },
+        {
+          "text": "I am okay"
+        },
+        {
+          "text": "I am fine"
+        },
+        {
+          "text": "It's okay"
+        },
+        {
+          "text": "I have gotten up"
+        },
+        {
+          "text": "I got up"
+        },
+        "description": "Code-zero"
+    {
+      "severity": "notsevere",
+      "examples": [
+        {
+# QNS3: “If you are conscious, please move any part of your body or say yes"
+          "text": "yes"
+        },
+        {
+          "text": "I can talk"
+        },
+        {
+          "text": "I am conscious"
+        },
+        {
+          "text": "I can move"
+        },
+        
+#QNS4: “Have you fallen?”
+        {
+          "text": "Ya"
+        },
+# QNS5: “Are you bleeding?”
+        {
+          "text": "No"
+        },
+# QNS6: “Can you tell me where you are feeling pain?”
+        {
+          "text": "Leg"
+        },
+        {
+          "text": "Waist"
+        },
+        {
+          "text": "Hip"
+        },
+        {
+          "text": "Shoulder"
+        },
+# QNS7: “Do you remember how you fell?” 
+         {
+          "text": "yes"
+        },
+        {
+          "text":"slipped"
+        },
+        {
+          "text":"slippery floor"
+        },
+        {
+          "text":"tripped on something"
+        },
+        {
+          "text":"wet"
+        },
+# QNS8: “Are you able to move your body?”
+        {
+          "text": "can"
+        },
+        {
+          "text":"a bit"
+        },
+        {
+          "text":"can stand up"
+        },
+        {
+          "text":"can get up"
+        },
+# QNS9: “Are you on any medication that makes you drowsy now?”
+        {
+          "text":"yes"
+        },
+        {
+          "text":"no"
+        },
+         {
+          "text": "don't know"
+        },
+        {
+          "text":"i think so"
+        }
+      ],
+# QNS10: “What is the year currently?”
+        {
+          "text":"twenty twenty"
+        },
+         {
+          "text": "two thousand and twenty"
+        },
+        {
+          "text":"two thousand twenty"
+        },
+        {
+          "text":"two zero two zero"
+        }
+      "description": "Code-yellow"
+    },
+    {
+      "Severity": "quitesevere",
+      "examples": [
+# QNS: “If you are conscious, please move any part of your body or say yes?" 
+        {
+          "text": "Yes"
+        },
+         {
+          "text": "I can move"
+        },
+#QNS: “Have you fallen?”
+        {
+          "text": "Ya"
+        },
+# QNS: “Are you bleeding?”
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Bleeding a lot"
+        },
+        {
+          "text": "Blood"
+        },
+# QNS: “Can you tell me where you are feeling pain?”
+        {
+          "text": "Head"
+        },
+        {
+          "text": "Back"
+        },
+#QNS:  “Do you remember how you fell?”
+        {
+          "text": "no"
+        },
+#QNS: “Are you able to move your body?”
+        {
+          "text":"No"
+        },
+        {
+          "text":"cannot"
+        },
+        {
+          "text":"cannot stand"
+        },
+        {
+          "text":"very pain"
+        },
+#QNS: “Are you on any medication that makes you drowsy now?”
+        {
+          "text":"Yes"
+        },
+        {
+          "text":"No"
+        },
+        {
+          "text":"Dont know"
+        },
+        {
+          "text":"I did not take anything"
+        },
+#QNS: “What is the year currently?”
+        {
+          "text":"I dont know"
+        },
+        {
+          "text":"What"
+        },
+        {
+          "text":"can't remember"
+        },
+        {
+          "text":"cannnot remember"
+        },
+      ],
+      "description": "Code-orange"
+    }
